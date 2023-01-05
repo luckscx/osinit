@@ -1,4 +1,13 @@
 
+echo "Cent OS Base Init"
+
+set -e -o pipefail
+
+yum install htop -y
+
+
+
+
 echo "Install autojump..."
 yum install autojump -y
 
